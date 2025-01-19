@@ -31,11 +31,11 @@ public class InMemoryCircleRepository : ICircleRepository
 
     private CircleDataModel GetCircleDataModel(Circle circle)
     {
-        // �T�[�N���ʒm�I�u�W�F�N�g���쐬����
+        // サークル通知オブジェクトを作成する
         var note = new CircleNotification();
-        // �T�[�N���G���e�B�e�B�̃����o�[�����T�[�N���ʒm�I�u�W�F�N�g(note)�Ɋi�[������
+        // サークルエンティティのメンバー情報をサークル通知オブジェクト(note)に格納させる
         circle.Notify(note);
-        // �ʒm�����r���h���ăf�[�^�Ƃ��Ď󂯎��
+        // 通知情報をビルドしてデータとして受け取る
         return note.Build();
     }
 }

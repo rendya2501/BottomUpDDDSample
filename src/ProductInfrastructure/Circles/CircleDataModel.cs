@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace ProductInfrastructure.Circles;
 
 /// <summary>
-/// ƒT[ƒNƒ‹ƒf[ƒ^ƒ‚ƒfƒ‹
+/// ã‚µãƒ¼ã‚¯ãƒ«ãƒ‡ãƒ¼ã‚¿ãƒ¢ãƒ‡ãƒ«
 /// </summary>
 /// <param name="id"></param>
 /// <param name="name"></param>
@@ -16,8 +16,8 @@ public class CircleDataModel(string id, string name, List<string> userIds)
 }
 
 
-// ”õ–Y˜^
-// ƒvƒ‰ƒCƒ}ƒŠ[ƒRƒ“ƒXƒgƒ‰ƒNƒ^‚ðŽg‚í‚È‚¢ê‡‚Ì‹Lq
+// å‚™å¿˜éŒ²
+// ãƒ—ãƒ©ã‚¤ãƒžãƒªãƒ¼ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã‚’ä½¿ã‚ãªã„å ´åˆã®è¨˜è¿°
 //public class CircleDataModel
 //{
 //    public string Id { get; }

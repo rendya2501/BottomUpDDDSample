@@ -6,7 +6,7 @@ using System.Linq;
 namespace ProductInfrastructure.Circles;
 
 /// <summary>
-/// ƒT[ƒNƒ‹’Ê’mƒIƒuƒWƒFƒNƒg
+/// ã‚µãƒ¼ã‚¯ãƒ«é€šçŸ¥ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ
 /// </summary>
 public class CircleNotification : ICircleNotification
 {
@@ -30,7 +30,7 @@ public class CircleNotification : ICircleNotification
     }
 
     /// <summary>
-    /// ’Ê’mƒIƒuƒWƒFƒNƒg‚Ìì¬
+    /// é€šçŸ¥ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ä½œæˆ
     /// </summary>
     /// <returns></returns>
     public CircleDataModel Build()
